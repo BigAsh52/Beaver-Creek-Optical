@@ -32,14 +32,17 @@ HTTPS is issued automatically. `www` redirects to the bare domain.
 ## 4. Contact form email
 After the first deploy, Netlify detects the form named **contact**. To get leads by email:
 **Site configuration → Forms → Form notifications → Add notification → Email notification** and enter the inbox
-(for example info@beavercreekoptical.com). Spam is filtered by a hidden honeypot field and by Netlify's built-in spam filter.
+(for example julie@beavercreekoptical.com). Spam is filtered by a hidden honeypot field and by Netlify's built-in spam filter.
 Submissions are also listed under **Forms** in the Netlify dashboard.
 
 ## Brand
-- Raspberry (primary) `#B3124E` · dark `#8A0D3B` · tint `#FBEAF1`
-- Green (secondary) `#2F7A55` · dark `#215A3E` · tint `#E7F3EC` · light on dark `#8FD3AE`
-- Wordmark: Fraunces Black (900), uppercase · Tagline: Inter, wide letter-spacing
-- `brand/logo-full.png` for light backgrounds, `brand/logo-full-reverse.png` for dark or raspberry, `brand/icon-*.png` for social avatars.
+- Navy (primary) `#022241` · dark `#011A33` · tint `#E4E9F0`
+- Brown (accent) `#814F30` · dark `#5F3A22` · light on dark `#D9B48E` · tint `#F2E8DC`
+- Cream (background) `#FAF5EC`
+- Logo: `brand/bc-logo.png` (full, transparent), `brand/bc-logo-reverse.png` (for navy backgrounds),
+  `brand/bc-wordmark.png` (no arcs, for headers), `brand/bc-icon.png` (BC monogram, for social avatars and the favicon),
+  `brand/bc-logo-original-cream.png` (the original file on cream).
+- Fonts on the site: Fraunces (headings) and Inter (body), self-hosted.
 
 ## Still to fill in
 - Phone number (commented out in the Contact section of `index.html`)
